@@ -1,0 +1,12 @@
+_schema-version: '2.1'
+ID: tinyworld.memory.config
+extends: tinyworld
+
+modules:
+  - name: tinyui
+    parameters:
+      memory: 128M
+
+  - name: tinyjs
+    parameters:
+      memory: 128M
