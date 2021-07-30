@@ -7,7 +7,7 @@ const xsenv = require("@sap/xsenv");
 const port  = process.env.PORT || 3000;
 
 const options = {
-	anonymous : true, // remove to authenticate calls
+	// anonymous : true, // remove to authenticate calls
 	auditLog : { logToConsole: true }, // change to auditlog service for productive scenarios
 	redirectUrl : "/index.xsjs"
 };
